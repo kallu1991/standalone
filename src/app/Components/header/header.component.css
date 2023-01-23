@@ -5,13 +5,14 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-  background: rgba(224, 168, 12, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(253, 234, 128, 0.37);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(68, 67, 63, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: 1px solid rgba(255, 255, 255, 0.18);
   width: 100%;
+  z-index: 1;
 }
 .logo {
   color: white;
@@ -22,7 +23,10 @@
 
 .nav-bar {
   margin: auto;
+  
 }
+
+
 
 .nav-bar a {
   color: rgb(0, 0, 0);
@@ -61,6 +65,7 @@ button {
 
   .nav-bar a {
     display: block;
+    color: rgb(235, 66, 66);
   }
 
   .menu-icon {
@@ -74,6 +79,14 @@ button {
   .logo {
     font-size: 1.4rem;
   }
+  #navigation-bar{
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(68, 67, 63, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 }
 
 footer {
@@ -82,12 +95,13 @@ footer {
   /* background: #528d4e; */
   width: 100%;
   text-align: center;
-  background: rgba(253, 215, 0, 0.25);
+  background: rgba(245, 240, 213, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 1;
 }
 
 .decoration{
