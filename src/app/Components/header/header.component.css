@@ -65,7 +65,7 @@ button {
 
   .nav-bar a {
     display: block;
-    color: rgb(235, 66, 66);
+    /* color: rgb(235, 66, 66); */
   }
 
   .menu-icon {
@@ -104,7 +104,7 @@ footer {
   z-index: 1;
 }
 
-.decoration{
+/* .decoration{
   text-decoration: none;
-  color: rgb(8, 5, 1);
-}
+  color: rgb(255, 255, 254);
+} */
