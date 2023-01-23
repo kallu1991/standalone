@@ -1,22 +1,25 @@
 <div class="page-header">
-  
   <div class="logo">
     <a class="decoration" routerLink="/">
-      <p class="font-semibold text-red-500 ">PortFolio </p>
+      <p class="font-semibold text-red-500 bg-transparent">PortFolio</p>
     </a>
   </div>
-  <a id="menu-icon" class="menu-icon text-red-500" (click)="onClick()">
-    <i class="fa fa-bars text-red-500"></i>
+  <a
+    id="menu-icon"
+    class="menu-icon text-red-500 bg-transparent"
+    (click)="onClick()"
+  >
+    <i class="fa fa-bars text-red-500 bg-transparent"></i>
   </a>
 
   <div id="navigation-bar" class="nav-bar">
-    <a routerLink="/home" routerLinkActive="active" class="font-semibold ">Profile</a>
-    <a routerLink="/products" class="font-semibold ">Projects</a>
+    <a routerLink="/home" routerLinkActive="active" class="font-semibold"
+      >Profile</a
+    >
+    <a routerLink="/products" class="font-semibold">Projects</a>
     <!-- <a routerLink="/services">Services</a> -->
-    <a routerLink="/about" class="font-semibold ">Contact me</a>
+    <a routerLink="/about" class="font-semibold">Contact me</a>
   </div>
-
-  <!-- <div class="header-right"><button>Sign in</button></div> -->
 </div>
 
 <footer class="footer">All Rights are reserved</footer>
